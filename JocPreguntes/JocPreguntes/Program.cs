@@ -234,6 +234,24 @@ namespace JocPreguntes {
 
                 if (test == "a") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
+
+                /*********************************************************************************************/
+                // Pregunta 2
+                Console.WriteLine("\n\t2. Quin és l'au de major envergadura que segueix viva actualment?");
+                Console.WriteLine("\n\n\ta. L'albatros.");
+                Console.WriteLine("\tb. El colibrí");
+                Console.WriteLine("\tc. L'àliga real");
+                Console.WriteLine("\td. El voltó");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "a") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
             }
 
 
