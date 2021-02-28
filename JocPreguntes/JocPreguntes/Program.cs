@@ -27,15 +27,12 @@ namespace JocPreguntes {
 
             if (opcio == 1) {
 
-<<<<<<< HEAD
                 // Pregunta 1
                 Console.WriteLine("\tHistòria");
-=======
-                
+
                 Console.WriteLine("\tHistòria");
 
                 // Pregunta 1
->>>>>>> TemaHistoria
                 Console.WriteLine("\n\t1. Qui va ser el primer president de la democràcia espanyola després del franquisme?");
                 Console.WriteLine("\n\n\ta. Adolfo Suárez");
                 Console.WriteLine("\tb. José Mariano Rajoy");
@@ -124,10 +121,31 @@ namespace JocPreguntes {
                 if (test == "a") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
 
+            } else if (opcio == 2) {
+
+                // Pregunta 1
+                Console.WriteLine("\tArt i literatura");
+                Console.WriteLine("\n\t1. Qui va escriure la Ilíada i l'Odissea?");
+                Console.WriteLine("\n\n\ta. Homer");
+                Console.WriteLine("\tb. Sòcrates");
+                Console.WriteLine("\tc. Plató");
+                Console.WriteLine("\td. Cap de les anteriors");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "a") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
+            
+            
             }
 
-            // Mostrar fi del programa
-            Console.Write("\n\tFi del Joc de Preguntes");
+                // Mostrar fi del programa
+                Console.Write("\n\tFi del Joc de Preguntes");
         }
     }
 }
