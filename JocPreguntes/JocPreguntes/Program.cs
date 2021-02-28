@@ -197,6 +197,24 @@ namespace JocPreguntes {
                 if (test == "b") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
 
+                /*********************************************************************************************/
+                // Pregunta 5
+                Console.WriteLine("\n\t5. Quin personatge de l'univers literari de Harry Potter té una rata anomenada Scabbers?");
+                Console.WriteLine("\n\n\ta. Snape");
+                Console.WriteLine("\tb. Harry Potter");
+                Console.WriteLine("\tc. Dumbledore");
+                Console.WriteLine("\td. Ron Weasley");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "d") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
+
             }
 
                 // Mostrar fi del programa
