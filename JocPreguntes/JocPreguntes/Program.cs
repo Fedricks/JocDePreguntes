@@ -178,6 +178,25 @@ namespace JocPreguntes {
                 if (test == "b") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
 
+
+                /*********************************************************************************************/
+                // Pregunta 4
+                Console.WriteLine("\n\t4. Quin nom tenia el cavall de Don Quixot de la Manxa?");
+                Console.WriteLine("\n\n\ta. Alberto");
+                Console.WriteLine("\tb. Rocinante");
+                Console.WriteLine("\tc. Juanjo");
+                Console.WriteLine("\td. Vago");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "b") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
+
             }
 
                 // Mostrar fi del programa
