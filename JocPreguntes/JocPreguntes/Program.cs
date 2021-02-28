@@ -160,6 +160,24 @@ namespace JocPreguntes {
                 if (test == "a") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
 
+                /*********************************************************************************************/
+                // Pregunta 3
+                Console.WriteLine("\n\t3. Quin altre idioma, a més del castellà, va escriure la novel·lista i poetessa Rosalía de Castro?");
+                Console.WriteLine("\n\n\ta. Català");
+                Console.WriteLine("\tb. Gallec");
+                Console.WriteLine("\tc. Anglès");
+                Console.WriteLine("\td. Xinès");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "b") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
+
             }
 
                 // Mostrar fi del programa
