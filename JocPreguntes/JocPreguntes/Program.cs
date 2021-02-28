@@ -252,6 +252,24 @@ namespace JocPreguntes {
 
                 if (test == "a") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
+
+                /*********************************************************************************************/
+                // Pregunta 3
+                Console.WriteLine("\n\t3. Quines són les bases nitrogenades de l'ADN?");
+                Console.WriteLine("\n\n\ta. Són la guanina, l'adenina, la timina i la citosina.");
+                Console.WriteLine("\tb. Són la guanina, la timina i la citosina.");
+                Console.WriteLine("\tc. Són la guanina, l'adenina i la citosina.");
+                Console.WriteLine("\td. Són l'adenina, la timina i la citosina.");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "a") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
             }
 
 
