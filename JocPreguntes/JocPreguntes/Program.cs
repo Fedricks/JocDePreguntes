@@ -270,6 +270,24 @@ namespace JocPreguntes {
 
                 if (test == "a") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
+
+                /*********************************************************************************************/
+                // Pregunta 4
+                Console.WriteLine("\n\t4. Al voltant de quin planeta orbiten els satèl·lits Ganímedes, Calisto, Io i Europa?");
+                Console.WriteLine("\n\n\ta. Saturn");
+                Console.WriteLine("\tb. Mercuri");
+                Console.WriteLine("\tc. Júpiter");
+                Console.WriteLine("\td. Venus");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "c") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
             }
 
 
