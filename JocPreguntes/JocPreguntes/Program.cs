@@ -80,10 +80,47 @@ namespace JocPreguntes {
 
                 if (test == "a") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
+
+                /*********************************************************************************************/
+                // Pregunta 4
+                Console.WriteLine("\n\t4. En quin any es va crear l'Organització de les Nacions Unides?");
+                Console.WriteLine("\n\n\ta. 1945");
+                Console.WriteLine("\tb. 1946");
+                Console.WriteLine("\tc. 1947");
+                Console.WriteLine("\td. 1948");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "a") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
+
+                /*********************************************************************************************/
+                // Pregunta 5
+                Console.WriteLine("\n\t5. Què caravel·la no va tornar de el viatge en el qual Colom va arribar a Amèrica per primera vegada?");
+                Console.WriteLine("\n\n\ta. Santa María");
+                Console.WriteLine("\tb. Santa Lucía");
+                Console.WriteLine("\tc. Santa Ana");
+                Console.WriteLine("\td. Santa Adriana");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "a") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
+
             }
 
-                // Mostrar fi del programa
-                Console.Write("\n\tFi del Joc de Preguntes");
+            // Mostrar fi del programa
+            Console.Write("\n\tFi del Joc de Preguntes");
         }
     }
 }
