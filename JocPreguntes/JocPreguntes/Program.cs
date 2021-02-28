@@ -288,8 +288,25 @@ namespace JocPreguntes {
 
                 if (test == "c") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
-            }
 
+                /*********************************************************************************************/
+                // Pregunta 5
+                Console.WriteLine("\n\t5. Per què va ser famosa Marie Curie?");
+                Console.WriteLine("\n\n\ta. Marie Curie és especialment coneguda pel descobriment de la radioactivitat");
+                Console.WriteLine("\tb. Marie Curie és especialment coneguda pel descobriment de la gravetat");
+                Console.WriteLine("\tc. Marie Curie és especialment coneguda pel descobriment de la velocitat de llum");
+                Console.WriteLine("\td. Marie Curie és especialment coneguda pel descobriment dels forats negres");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "a") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
+            }
 
                 // Mostrar fi del programa
                 Console.Write("\n\tFi del Joc de Preguntes");
