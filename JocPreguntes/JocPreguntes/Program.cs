@@ -25,9 +25,47 @@ namespace JocPreguntes {
             // Borrar Consola
             Console.Clear();
 
-            
-            // Mostrar fi del programa
-            Console.Write("\n\tFi del Joc de Preguntes");
+            if (opcio == 1) {
+
+                // Pregunta 1
+                Console.WriteLine("\tHistòria");
+                Console.WriteLine("\n\t1. Qui va ser el primer president de la democràcia espanyola després del franquisme?");
+                Console.WriteLine("\n\n\ta. Adolfo Suárez");
+                Console.WriteLine("\tb. José Mariano Rajoy");
+                Console.WriteLine("\tc. Pedro Sánchez");
+                Console.WriteLine("\td. Cap de les anteriors");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "a") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
+
+                /*********************************************************************************************/
+                // Pregunta 2
+                Console.WriteLine("\n\t2. En quin any l'home va trepitjar la Lluna per primera vegada?");
+                Console.WriteLine("\n\n\ta. 1967");
+                Console.WriteLine("\tb. 1968");
+                Console.WriteLine("\tc. 1969");
+                Console.WriteLine("\td. 1970");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "c") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
+            }
+
+                // Mostrar fi del programa
+                Console.Write("\n\tFi del Joc de Preguntes");
         }
     }
 }
