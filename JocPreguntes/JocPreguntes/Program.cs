@@ -27,8 +27,15 @@ namespace JocPreguntes {
 
             if (opcio == 1) {
 
+<<<<<<< HEAD
                 // Pregunta 1
                 Console.WriteLine("\tHistòria");
+=======
+                
+                Console.WriteLine("\tHistòria");
+
+                // Pregunta 1
+>>>>>>> TemaHistoria
                 Console.WriteLine("\n\t1. Qui va ser el primer president de la democràcia espanyola després del franquisme?");
                 Console.WriteLine("\n\n\ta. Adolfo Suárez");
                 Console.WriteLine("\tb. José Mariano Rajoy");
