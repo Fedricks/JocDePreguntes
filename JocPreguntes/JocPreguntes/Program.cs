@@ -215,7 +215,27 @@ namespace JocPreguntes {
                 if (test == "d") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
 
+            } else {
+
+                // Pregunta 1
+                Console.WriteLine("\tNaturalesa y ciències");
+                Console.WriteLine("\n\t1. Quina és la velocitat de la llum?");
+                Console.WriteLine("\n\n\ta. 299.792.458 km/s");
+                Console.WriteLine("\tb. 299.792.450 km/s");
+                Console.WriteLine("\tc. 299.792.457 km/s");
+                Console.WriteLine("\td. Cap de les anteriors");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "a") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
             }
+
 
                 // Mostrar fi del programa
                 Console.Write("\n\tFi del Joc de Preguntes");
