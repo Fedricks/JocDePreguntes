@@ -62,6 +62,24 @@ namespace JocPreguntes {
 
                 if (test == "c") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
+
+                /*********************************************************************************************/
+                // Pregunta 3
+                Console.WriteLine("\n\t3. Qui va ser el primer president dels Estats Units?");
+                Console.WriteLine("\n\n\ta. George Washington");
+                Console.WriteLine("\tb. John Adams");
+                Console.WriteLine("\tc. Theodore Roosevelt");
+                Console.WriteLine("\td. James Madison");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "a") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
             }
 
                 // Mostrar fi del programa
