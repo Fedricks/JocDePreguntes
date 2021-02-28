@@ -140,8 +140,26 @@ namespace JocPreguntes {
 
                 if (test == "a") Console.WriteLine("\tOpcio Correcte!");
                 else Console.WriteLine("\tOpcio Incorrecte!");
-            
-            
+
+
+                /*********************************************************************************************/
+                // Pregunta 2
+                Console.WriteLine("\n\t2. Qui va pintar el Guernica?");
+                Console.WriteLine("\n\n\ta. Pablo Ruiz Picasso");
+                Console.WriteLine("\tb. Salvador Dalí");
+                Console.WriteLine("\tc. Joan Miró");
+                Console.WriteLine("\td. Cap de les anteriors");
+
+                test = Console.ReadLine();
+
+                while (test != "a" && test != "b" && test != "c" && test != "d") {
+                    Console.Write("\n\tEscriu opció: ");
+                    test = Console.ReadLine();
+                }
+
+                if (test == "a") Console.WriteLine("\tOpcio Correcte!");
+                else Console.WriteLine("\tOpcio Incorrecte!");
+
             }
 
                 // Mostrar fi del programa
