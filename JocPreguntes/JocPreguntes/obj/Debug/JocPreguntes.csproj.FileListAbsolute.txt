@@ -1,0 +1,7 @@
+C:\Users\Fedrick\Desktop\JocPreguntes\JocPreguntes\JocPreguntes\bin\Debug\JocPreguntes.exe.config
+C:\Users\Fedrick\Desktop\JocPreguntes\JocPreguntes\JocPreguntes\bin\Debug\JocPreguntes.exe
+C:\Users\Fedrick\Desktop\JocPreguntes\JocPreguntes\JocPreguntes\bin\Debug\JocPreguntes.pdb
+C:\Users\Fedrick\Desktop\JocPreguntes\JocPreguntes\JocPreguntes\obj\Debug\JocPreguntes.csprojAssemblyReference.cache
+C:\Users\Fedrick\Desktop\JocPreguntes\JocPreguntes\JocPreguntes\obj\Debug\JocPreguntes.csproj.CoreCompileInputs.cache
+C:\Users\Fedrick\Desktop\JocPreguntes\JocPreguntes\JocPreguntes\obj\Debug\JocPreguntes.exe
+C:\Users\Fedrick\Desktop\JocPreguntes\JocPreguntes\JocPreguntes\obj\Debug\JocPreguntes.pdb
